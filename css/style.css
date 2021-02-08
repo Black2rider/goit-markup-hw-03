@@ -1,0 +1,42 @@
+/* --- Основа для всех страниц --- */
+
+:root {
+  --text-blue: #2196F3;
+  --text-hero-white: #ffffff;
+  --text-white-footer: rgba(255, 255, 255, .6);
+  --text-black: #212121;
+  --text-grey: #757575;
+  --background-hero: #2F303A;
+  --background-btn: #F5F4FA;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-black);
+  outline: none; 
+}
+
+ul {
+  list-style: none;
+}
+
+
