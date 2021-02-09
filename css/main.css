@@ -2,6 +2,10 @@
 
 /* --- Шапка--- */
 
+.header-page {
+
+}
+
 .logo {
   font-style: normal;
   font-family: 'Raleway', sans-serif;
@@ -46,30 +50,45 @@
 
 .hero {
   background-color: var(--background-hero);
+  text-align: center;
+  
 }
 
 .hero-text {
+  margin-bottom: 30px;
   color: var(--text-hero-white);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .hero-btn {
+  display: inline-block;
+  min-width: 200px;
+  padding: 10px 32px;
+  border-radius: 4px;
   color: var(--text-hero-white);
   background-color: var(--text-blue);
   font-weight: 700;
   font-size: 16px;
+  text-align: center;
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
 
 /* --- Особенности --- */
 
+.features {
+  padding-top: 89px;
+  margin-bottom: 91px;
+
+}
+
 .features-heading {
+  max-width: 270px;
+  padding-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -78,6 +97,7 @@
 }
 
 .features-text {
+  max-width: 270px;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -86,7 +106,12 @@
 
 /* --- Чем мы занимаемся --- */
 
+.work {
+  padding-bottom: 94px;
+}
+
 .heading-main {
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -97,7 +122,21 @@
 
 /* --- Наша команда --- */
 
+.family {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
+.family-image {
+  max-width: 270px;
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
 .family-name {
+  max-width: 270px;
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -107,13 +146,14 @@
 }
 
 .family-proffesion {
+  max-width: 270px;
+  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-grey);
-
 }
 
 /* --- Футер --- */
@@ -122,13 +162,18 @@
 
 .footer {
   background-color: var(--background-hero);
+  padding-top: 60px;
 }
 
 .logo-footer {
+  display: inline-block;
   color: var(--text-hero-white);
+  padding-bottom: 20px;
 }
 
 .address-link {
+  padding-bottom: 9px;
+  display: inline-block;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
