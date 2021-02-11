@@ -2,6 +2,15 @@
 
 /* --- Шапка--- */
 
+.header-page,
+.header-content,
+.header-nav,
+.header-ul,
+.list-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .logo {
   font-style: normal;
@@ -16,10 +25,15 @@
   color: var(--text-blue);
 }
 
+.list-nav {
+  margin-left: 92px;
+} 
+
 .link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-right: 50px;
 }
 
 .link:hover,
@@ -27,8 +41,12 @@
   color: var(--text-blue);
 }
 
-.site-nav .link.current {
+.list-nav .link.current {
   color: var(--text-blue);
+}
+
+.header-ul{
+  margin: 32px 0;
 }
 
 .header-contacts {
@@ -73,6 +91,10 @@
   text-align: center;
   line-height: 1.87;
   letter-spacing: 0.06em;
+}
+
+.hero .container {
+  max-width: 696px;
 }
 
 /* --- Особенности --- */
