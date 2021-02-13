@@ -181,6 +181,20 @@
 
 /* --- Наша команда --- */
 
+.family,
+.family-list {
+  display: flex;
+}
+
+.family-item {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.family-item:last-child {
+  padding-right: 0;
+}
+
 .family {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -221,7 +235,7 @@
 
 .footer {
   background-color: var(--background-hero);
-  padding-top: 60px;
+  padding: 60px 0;
 }
 
 .logo-footer {
