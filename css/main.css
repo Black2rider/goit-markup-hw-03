@@ -2,14 +2,14 @@
 
 /* --- Шапка--- */
 
-.header-page,
-.header-content,
-.header-nav,
-.header-ul,
-.list-nav {
+.header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+.header-catalogue {
+  display: flex;
+  margin-right: auto;
 }
 
 .logo {
@@ -26,18 +26,24 @@
 }
 
 .list-nav {
+  display: flex;
+  align-items: center;
   margin-left: 92px;
-} 
+}
 
-.item-nav {
+.item-nav:not(:last-child) {
+  margin-right: 50px;
+}
+
+.link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding-right: 50px;
-}
-
-.item-nav:last-child {
-  padding-right: 0;
+  
 }
 
 .link:hover,
@@ -49,11 +55,15 @@
   color: var(--text-blue);
 }
 
-.header-ul{
-  margin: 32px 0;
+.header-list{
+  display: flex;
 }
 
-.header-contacts {
+.header-cont {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;

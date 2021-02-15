@@ -45,6 +45,7 @@
 .proekts-item {
   padding-right: 30px;
   padding-bottom: 30px;
+  /* border: 1px solid var(--border-proekts); */
 }
 
 .proekts-item:nth-child(3n+3) {
