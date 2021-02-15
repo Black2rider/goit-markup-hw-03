@@ -5,11 +5,12 @@
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.header-catalogue {
+.content {
   display: flex;
-  margin-right: auto;
+  align-items: center;
 }
 
 .logo {
@@ -18,10 +19,9 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  
 }
 
-.logo-link{
+.logo-link {
   color: var(--text-blue);
 }
 
@@ -31,7 +31,8 @@
   margin-left: 92px;
 }
 
-.item-nav:not(:last-child) {
+.item-nav:not(:last-child),
+.header-contacts:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -43,7 +44,6 @@
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  
 }
 
 .link:hover,
@@ -55,32 +55,8 @@
   color: var(--text-blue);
 }
 
-.header-list{
-  display: flex;
-}
-
-.header-cont {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+.contacts {
   color: var(--text-grey);
-}
-
-.header-cont {
-  padding-right: 50px;
-}
-
-.header-cont:last-child {
-  padding-right: 0;
-} 
-
-.header-contacts:hover,
-.header-contacts:focus {
-  color: var(--text-blue);
 }
 
 /* --- Баннер --- */
@@ -88,7 +64,6 @@
 .hero {
   background-color: var(--background-hero);
   text-align: center;
-  
 }
 
 .hero-text {
@@ -125,7 +100,6 @@
   display: flex;
   padding-top: 89px;
   padding-bottom: 91px;
-
 }
 
 .features-list {
@@ -133,11 +107,12 @@
   justify-content: space-between;
 }
 
-.features-item {
+.features-items {
   padding-right: 30px;
+  background-color: tomato;
 }
 
-.features-item:last-child {
+.features-items:last-child {
   padding-right: 0px;
 }
 
@@ -163,7 +138,6 @@
 
 .work {
   padding-bottom: 94px;
-  
 }
 
 .heading-main {
@@ -210,7 +184,6 @@
   padding-bottom: 94px;
 }
 
-
 .family-image {
   max-width: 270px;
   display: inline-block;
@@ -250,20 +223,25 @@
 
 .logo-footer {
   display: inline-block;
+  margin-bottom: 20px;
+
   color: var(--text-hero-white);
-  padding-bottom: 20px;
+  
+}
+
+.footer-items:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-link {
-  padding-bottom: 9px;
   display: inline-block;
+  
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-hero-white);
-  
 }
 
 .post {
