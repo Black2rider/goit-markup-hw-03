@@ -53,3 +53,104 @@ h1, h2, h3, ul, p {
   margin: 0;
   padding: 0;
 }
+
+/* ОБЩИЕ СТИЛИ ДЛЯ ВСЕХ СТРАНИЦ ХЕДЕРА И ФУТЕРА */
+
+/* --- Шапка--- */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-style: normal;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-link {
+  color: var(--text-blue);
+}
+
+.list-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 92px;
+}
+
+.item-nav:not(:last-child),
+.header-contacts:not(:last-child) {
+  margin-right: 50px;
+}
+
+.link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--text-blue);
+}
+
+.list-nav .link.current {
+  color: var(--text-blue);
+}
+
+.contacts {
+  color: var(--text-grey);
+}
+
+/* --- Футер --- */
+
+/* --- Адресс --- */
+
+.footer {
+  background-color: var(--background-hero);
+  padding: 60px 0;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  color: var(--text-hero-white);
+}
+
+.footer-items:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address-link {
+  display: inline-block;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-hero-white);
+}
+
+.post {
+  color: var(--text-white-footer);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--text-blue);
+}
