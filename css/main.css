@@ -50,7 +50,7 @@
 }
 
 .features-items {
-  width: calc((100% - 90px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .work-item {
-  width: calc((100% - 60px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
   padding-right: 30px;
 }
 
@@ -123,12 +123,12 @@
 
 .family-item img {
   display: block;
-  max-width: 270px;
+  max-width: 100%;
   padding-bottom: 30px;
 }
 
 .family-item {
-  width: calc((100% - 30px) / 4);
+  flex-basis: calc((100% - 30px) / 4);
   margin-right: 30px;
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
