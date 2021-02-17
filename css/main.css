@@ -5,6 +5,11 @@
 /* --- Баннер --- */
 
 .hero {
+  max-width: 1600px;
+  padding: 200px 452px;
+  margin-left: auto;
+  margin-right: auto;
+
   background-color: var(--background-hero);
   text-align: center;
 }
@@ -31,10 +36,6 @@
   text-align: center;
   line-height: 1.87;
   letter-spacing: 0.06em;
-}
-
-.hero .container {
-  max-width: 696px;
 }
 
 /* --- Особенности --- */
