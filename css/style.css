@@ -58,15 +58,20 @@ h1, h2, h3, ul, p {
 
 /* --- Шапка--- */
 
-.header-container {
+.page-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
-.content {
+.header-nav {
   display: flex;
   align-items: center;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .logo {
