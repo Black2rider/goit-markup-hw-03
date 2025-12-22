@@ -1,0 +1,166 @@
+/* MAIN STYLES*/
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #ffffff;
+    --dairy: #fcfcfc;
+}
+
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--slate);
+    background-color: var(--white);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-black);
+    letter-spacing: 0.02em;
+
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    color: var(--navy-blue);
+}
+
+h3 {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--navy-blue);
+}
+
+p {
+    letter-spacing: 0.02em;
+}
+
+/* HEADER*/
+.logo {
+  font-family: var(--second-family);
+  color: var(--navy-blue);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo .logo-link {
+  color: var(--iris);
+}
+
+.nav-link {
+    color: var(--navy-blue);
+    font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--ocean);
+}
+
+.address-link {
+  color: var(--slate);
+  font-style: normal;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean);
+}
+
+/* Section HERO*/
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+.hero-button {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background: var(--iris);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--ocean);
+}
+
+/* Section OUR FEATURES */
+.features {
+    text-align: center;
+}
+
+/* Section OUR TEAM */
+.team {
+  text-align: center;
+}
+
+.team-section {
+  background: var(--cloud);
+}
+
+.team-list {
+  background: var(--white);
+}
+
+.team-heading {
+  text-align: center;
+}
+
+.team-paragraph {
+  text-align: center;
+}
+
+/* Section OUR PORTFOLIO */
+.portfolio{
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.logo-footer {
+  color: var(--cloud);
+}
+
+.footer-paragraph {
+  color: var(--cloud);
+}
