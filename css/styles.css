@@ -132,14 +132,14 @@ img {
   text-align: center;
 }
 
-.features-heading {
+.features-item-heading {
   font-size: 20px;
   letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 1.2;
 }
 
-.features-paragraph {
+.features-item-paragraph {
   letter-spacing: 0.02em;
 }
 
