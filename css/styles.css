@@ -60,6 +60,12 @@ img {
 }
 
 /* HEADER*/
+.header-wrapper {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .logo {
   font-family: var(--second-family);
   color: var(--navy-blue);
@@ -68,10 +74,23 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
+
 }
 
 .logo-link {
   color: var(--iris);
+}
+
+.header-nav-list {
+  display: flex;
+  margin-right: 332px;
+  gap: 40px;
+}
+
+.header-address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-link {
@@ -101,13 +120,22 @@ img {
   background-color: var(--navy-blue);
 }
 
+.hero-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
-  margin: 0;
+  padding-top: 188px;
+  margin-top: 0;
+  margin-bottom: 48px;
+  
 }
 
 .hero-button {
@@ -116,6 +144,7 @@ img {
   letter-spacing: 0.04em;
   color: var(--white);
   background: var(--iris);
+  padding: 16px 32px;
   cursor: pointer;
 }
 
